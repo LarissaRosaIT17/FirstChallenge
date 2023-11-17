@@ -1,0 +1,34 @@
+
+.orbit-center {
+position: relative;
+width: 270px;
+height: 270px;
+margin: 150px auto;
+text-align:center;
+line-height:90px;
+padding:0px;
+}
+
+.moon {
+border-radius: 50%;
+position: absolute;
+width: 20px;
+height: 20px;
+margin:0px;
+padding:0px;
+font-size:13px;
+line-height:43px;
+border:2px solid pink;
+font-size:0px;
+transition:.3s background, 0s color;
+z-index:1;
+}
+
+#content{
+    display: inline;
+    margin-top: 20px;
+}
+
+#instrucoes{
+    display: inline;
+}
